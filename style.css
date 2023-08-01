@@ -1,0 +1,390 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+#check{
+    display: none;
+  }
+  .check-button{
+    display: none;
+    color: rgb(202, 206, 206);
+  
+  }
+
+.navbar{
+    display: flex;
+    background-color:black;
+    justify-content: space-between;
+    z-index: 1;
+    height: fit-content;
+    color:rgb(255, 255, 255);
+}
+
+.nav-heading{
+    padding: 1.5rem;
+
+}
+
+li {
+    padding: 2rem;
+    display: inline-block;
+
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.header{
+    height: 100vh;
+    width: 100%;
+    background-image: url(./thumb-1920-546091.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+
+.heading-header{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: aliceblue; 
+    z-index: 0;
+    
+}
+
+.paragraph{
+    font-size: 1.5rem;
+ 
+}
+
+.paragraph-last{
+    font-size: 1.5rem;
+ 
+}
+
+.centered{
+    font-size: 4.5rem;
+} 
+
+.grid-container{
+    display:grid;
+    width: 100%;
+    grid-template-columns: repeat(2,1fr);
+    background-color: aliceblue;
+}
+.para-header{
+
+    padding: 8rem;
+    font-size: 2.5rem;
+}
+
+
+.portion{
+
+    background-color: black;
+    text-align: center;
+    color: aliceblue; 
+}
+
+.parag{
+   
+  color: aliceblue;
+  font-size: 1.5rem;
+  padding: 7rem;
+  
+}
+
+.middle{
+    height: 100vh;
+    width: 100%;
+    background-image: url(./Adventure-HD-Wallpaper.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+.header-middle{
+    color: aliceblue;
+}
+
+.heading-middle{
+    position: absolute;
+    text-align: center; 
+    padding: 15%;
+    color: rgb(255, 255, 255); 
+}
+
+.container-middle{
+    display: grid;
+    background-color: aliceblue;
+    height: 70vh;
+    width: 100%;
+    grid-template-columns: repeat(2,1fr);
+    
+}
+
+.grid-middle{
+    background-color: black;
+    padding: 4rem;
+}
+
+.head-middle{
+    color: white ;
+    font-size: 3rem ;
+    padding: 1rem;
+}
+
+.middle-para{
+  color: aliceblue;
+  font-size: 1.5rem;
+  padding: 1rem;
+  text-align: justify;
+  
+}
+
+.middle-img{
+    width: 100%;
+    height: 100%;
+    overflow-x: 0;
+}
+
+.last{
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-image: url(./4K-Travel-Wallpaper-768x432.jpg);
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+.heading-last{
+    position: absolute;
+    text-align: center; 
+    color: aliceblue;
+    padding: 15%;
+}
+
+.container-last{
+    height: 80vh;
+    width: 100%;
+    background-color:  rgb(0, 0, 0);
+}
+
+.grid-last{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    height: 100%;
+    width: 100%;
+}
+
+.g-last1,.g-last2 , .g-last3{
+    background-color: rgb(255, 255, 255);
+    margin-top: 7rem ;
+    margin-left: 7rem;
+    margin-right: 7rem;
+    overflow: hidden;
+    position: relative;
+   
+}
+
+.img1,.img2,.img3{
+    
+    position: absolute;
+    top: 1rem;
+    left: 50%;
+    transform: translate(-50%,0);
+    height: 15rem;
+    width: 15rem;
+    border-radius: 100rem;
+    overflow: hidden;
+}
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    
+   
+}
+
+.grid-h1,.grid-h2,.grid-h3{
+    text-align: center;
+    padding-top: 17rem;
+
+}
+.btn{
+    background-color: black;
+    color: aliceblue;
+    border: 10px solid;
+    border-color: black;
+}
+
+.final{
+    height: 100vh;
+    width: 100%;
+    background-image: url(./nissan_frontier_project_adventure_2022_4k_8k-5120x2880.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.final-header{
+    position: absolute;
+    text-align: center; 
+    color: aliceblue;
+    padding: 15%
+}
+
+footer{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+}
+
+.footer-add{
+padding-top: 3rem;
+}
+
+.footer-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3rem;
+}
+
+.form{
+    display: flex;
+    width: 80%;
+    /* justify-content: space-between; */
+    padding: 1rem;
+}
+.foot{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-top: 3rem;
+    
+}
+
+.feet{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 3rem;
+
+}
+.butn{
+    border: 10px solid;
+    border-color: aliceblue;
+    width: 10rem;
+}
+
+@media screen and (max-width:861px) {
+
+
+    .check-button {
+        display: inline-block;
+        position: absolute;
+        right: 0px;
+        top: 1rem;
+        padding: 1rem 1rem;
+    }
+
+    ul {
+    position: fixed;
+    top: 80px;
+    width: 100%;
+    height: 100%;
+    left:-100%;
+    
+    background-color: rgba(14, 14, 14, 0.912);
+    z-index: 99;
+   }
+   li{
+    display: block;
+   }
+
+   li >a {
+    color: aliceblue;
+   }
+   nav > #check:not(:checked) ~ ul {
+       height: 0px;
+     }
+     nav > #check:checked ~ ul {
+        left: 0;
+     }
+    .grid-container{
+        display: block;
+    }
+
+    .container-middle{
+        display: block;
+    }
+
+    .para-header{
+        padding: 1.5rem;
+    }
+    .middle-img{
+        display: none;
+    }
+
+    .feet{
+        display: block;
+        overflow: hidden;
+    }
+    .grid-last{
+        display: block;
+        height: fit-content;
+    }
+
+    
+    .butn{
+        overflow: hidden;
+    }
+    .final-header{
+        padding: 0%;
+    }
+    .foot{
+        display: none;
+    }
+    .parag{
+        padding: 1.5rem;
+        text-align: justify;
+    }
+    .grid-middle{
+        padding: 1rem;
+    }
+    .container-middle{
+        height: 100%;
+    }
+    .heading-last{
+        padding: 2rem;
+        height: 100%;
+    }
+
+    
+.container-last{
+    height: fit-content;
+    width: 100%;
+    background-color:  rgb(0, 0, 0);
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+}
+
+    .paragraph {
+    display: none;
+    }
+
+}
